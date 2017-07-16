@@ -1,0 +1,68 @@
+Dokumentasi Program Hotel
+
+NIM   : 10115264
+Nama  : Mohamad Fathan Mustaqim
+Kelas : Prolan-12
+
+
+1. Deskripsi Program
+
+program ini digunakan untuk mendata bagian-bagian yang ada di hotel yaitu tamu, resepsionis , kamar dan pembayaran hotel.
+
+
+Program ini dibuat menggunakan menu pilihan yang terdiri dari :
+- Daftar Tamu 
+   Memasukan data tentang tamu yang berkunjung dan menampilkan daftar tampil tamunya.
+- Daftar Karyawan Resepsionis 
+   Memasukan data tentang karyawan resepsionis atau pelayan hotel dan menampilkan daftar tampil resepsionisnya.
+- Daftar Kamar 
+   Memasukan data tentang kamar yang ada di hotel dan menampilkan daftar tampil kamarnya.
+- Daftar Pembayaran
+   Memasukan data pembayaran sewa kamar di hotel dan menampilkan daftar tampil pembayarannya.
+
+
+
+
+2. Cara Menggunakan Program  
+
+Berikut cara penggunaan program hotel :
+
+- Pada saat pertama kali program di jalankan maka akan terdapat list atau menu pilihan tentang perhotelan.
+
+- Kemudian pengguna dapat memasukan salah satu Huruf kapitalnya saja yang tertulis pada Menu Utama pilihan di Masukan Menu#.
+
+- Setelah memasukan menu maka pengguna di arahkan ke bagian Menu daftar apa yang sudah di pilih di menu utama.
+
+- Pengguna dapat memasukan pilihan menu lagi pada menu daftar di di Masukan Menu#. 
+ 
+- Untuk penginputan data pilih dan ketik 1, dan pengguna akan di arahkan ke bagian penginputan data.
+
+- Inputlah data sesuai apa yang diperintahkan program.
+
+- Lalu selesai penginputan maka pengguna di arahkan untuk kembali dengan mengetik 0. 
+
+- Program akan kembali ke menu daftar. Jika ingin menampilkan daftar tampil yang telah di inputkan. pilih dan ketik 2.
+
+- Maka akan mucul daftar tampil data yang telah di inputkan. Setelah itu pengguna bisa kembali ke menu daftar dengan 
+  megetik 0 lagi.
+
+- Kembali lagi Ke Menu daftar, Jika ingin Ke Menu Utama bisa Ketik bisa dengan mengetik 'E'atau 'e. 
+
+- Di Menu Utama jika ingin masuk ke menu daftar lain, caranya sama seperti diatas , tapi jika ingin keluar ketik 0.       
+
+
+
+
+3. Keterkaitan dengan OOP
+
+- Inherintance di tunjukan pada kelas Karyawan sebagai Super kelasnya yang di extends pada kelas Resepsionis dan kelas Tamu.
+- Kelas Abstract di tunjukan pada kelas Karyawan .
+- Abstract Method ditunjukan pada method note di kelas Karyawan.
+- Interface di tunjukan pada interfaceHotel yang di implementasikan pada kelas GenericBayar, Kamar dan Karyawan.
+- Generic class di tunjukan pada kelas GenericBayar.
+- Generic Method di tunjukan pada method Membayar di kelas GenericBayar.
+- Pada program ini terdapat dua package , yaitu hotel yang di dalamnya terdapat kelas GenericBayar, Kamar, MainHotel, Tamu
+  dan package Karyawan yang didalamnya terdapat kelas Karyawan, Resepsionis dan interfaceHotel.
+- Overriding di tunjukan pada kelas GenericBayar, Kamar, Tamu dan Resepsionis. yaitu di atas methodnya memiliki ciri
+  @Override
+- encapsulation , getter dan setter di tujukan pada kelas GenericBayar, Kamar dan Karyawan. 
